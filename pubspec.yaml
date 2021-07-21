@@ -10,8 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  moor: ^4.4.0
+  # moor: ^4.4.0
+  moor_flutter: ^4.0.0
   provider: ^5.0.0
+  sqflite: ^2.0.0+3
+  sqflite_common_ffi: ^2.0.0+1
 
 dev_dependencies:
   flutter_test:
